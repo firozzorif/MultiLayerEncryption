@@ -8,7 +8,7 @@ A cloud based encryption-decryption application that provides secure, scalable, 
 
 ## 🚀 Features
 
-* 🔒 **Four-Layer Encryption Pipeline:**
+* 🔒 **Four-Layer Encryption Pipeline :**
 
   1. XOR Encryption
   2. Next Lexicographic Permutation
