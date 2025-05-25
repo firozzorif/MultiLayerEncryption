@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-gray-800;
+  }
+}
+
+@layer components {
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  .animate-scale {
+    animation: scale 0.3s ease-out forwards;
+  }
+
+  .animate-spin-slow {
+    animation: spin 2s linear infinite;
+  }
+
+  .progress-ring {
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+  }
+
+  .progress-ring__circle {
+    transition: stroke-dashoffset 0.35s;
+    transform-origin: 50% 50%;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
