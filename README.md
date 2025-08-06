@@ -1,5 +1,3 @@
-# MultiLayerEncryption
-Layered Encryption for text documents using AWS
 # 🔐 Multilayer Encryption and Decryption System
 
 A cloud based encryption-decryption application that provides secure, scalable, and user-friendly protection for sensitive text data. Built using **AWS Lambda**, **Amazon S3**, **API Gateway**, and **ReactJS**, it implements a **four-layer encryption pipeline** with custom **FED(Name of all the contributors : Firoz-Esha-Dev)** key generation.
