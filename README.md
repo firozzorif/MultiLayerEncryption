@@ -43,7 +43,7 @@ A cloud based encryption-decryption application that provides secure, scalable, 
 * **Backend:** AWS Lambda (Python/Node.js), Amazon API Gateway
 * **Storage:** Amazon S3
 * **Security:** HMAC, SHA-256, Base64, ECC-like keys
-* **Key Management:** Custom Federated Entropy Derivation (FED)
+* **Key Management:** Custom FED(Firoz-Esha-Dev) Key
 
 ---
 
